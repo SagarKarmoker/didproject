@@ -34,7 +34,7 @@ DID Manager is a modern web application that provides a simple and secure way to
 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/SagarKarmoker/didproject.git
 cd didproject
 ```
 
