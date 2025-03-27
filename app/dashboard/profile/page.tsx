@@ -26,7 +26,7 @@ export default function ProfilePage() {
     return (
         <AuthDashboard>
             <div className="flex flex-col min-h-screen bg-gradient-to-br from-slate-950 to-slate-900 pt-16 p-6 md:p-10">
-                <div className="max-w-4xl mx-auto w-full">
+                <div className="max-w-4xl mx-auto w-full pt-20">
                     {/* Profile Header */}
                     <Card className="bg-slate-800/50 backdrop-blur-sm border-slate-700/50 text-white rounded-xl mb-8">
                         <CardContent className="p-8">

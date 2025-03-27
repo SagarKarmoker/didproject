@@ -11,6 +11,8 @@ export default function AuthDashboard({ children }: AuthDashboardProps) {
     const { ready, user, authenticated } = usePrivy()
     const router = useRouter()
 
+    console.log(user)
+
     if (!ready) {
         return (
             <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-950 to-slate-900">

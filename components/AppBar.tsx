@@ -21,7 +21,7 @@ export default function AppBar() {
 
                         {/* Navigation Links */}
                         {
-                            pathname !== '/dashboard' && (
+                            !pathname.startsWith('/dashboard') && (
                                 <div className="flex-1 flex justify-center space-x-6">
                                     <a href="#" className="text-zinc-300 hover:text-white flex items-center gap-2 cursor-pointer"><HomeIcon size={18} />Home</a>
                                     <a href="#" className="text-zinc-300 hover:text-white flex items-center gap-2 cursor-pointer"><Settings size={18} />Features</a>

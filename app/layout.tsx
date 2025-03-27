@@ -30,7 +30,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <PrivyProviders>
-            <AppBar />
+            {typeof window !== 'undefined' && window.location.pathname.startsWith('/dashboard') && <AppBar />}
             {children}
           </PrivyProviders>
         </ThemeProvider>
